@@ -1,0 +1,28 @@
+.containerArticle{
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--card-background-color);
+}
+
+.containerArticleReaded{
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--card-background-color);
+    opacity: 0.4;
+}
+
+.containerContent{
+
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}

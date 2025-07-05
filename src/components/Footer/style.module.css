@@ -1,0 +1,11 @@
+.containerFooter{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    background-color: var(--footer-background-color);
+    width: 100%;
+    font-weight: bold;
+}
