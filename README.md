@@ -1,12 +1,33 @@
-# React + Vite
+# 📝 ToDo List com Functional Components (React 17)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto desenvolvido com **React 17** utilizando **Functional Components**. O objetivo é gerenciar uma lista de tarefas com funcionalidades modernas de React, como **Hooks**, **Context API**, e **rotas com React Router v5**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Funcionalidades
 
-## Expanding the ESLint configuration
+- ✅ Visualizar e remover tarefas (posts)
+- 🌙 Alternância de tema (light/dark)
+- 🔄 Navegação entre páginas com **React Router v5**
+- ⚛️ Uso de **Hooks**: `useState`, `useContext`, `useEffect`
+- 📦 Gerenciamento de estado global com **Context API**
+- 💡 Utilização clara de **props**, **composição de componentes** e **boas práticas com functional components**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Tecnologias e Ferramentas
+
+- [React 17](https://reactjs.org/)
+- [React Router DOM v5](https://reactrouter.com/web/guides/quick-start)
+- Context API
+- JavaScript (ES6+)
+- CSS Modules ou Styled Components (caso use)
+- [Yarn](https://classic.yarnpkg.com/lang/en/)
+
+---
+
+## 📁 Como rodar
+
+```bash
+yarn install
+yarn dev
